@@ -93,7 +93,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -179,3 +178,4 @@ keys
 .copy-status
 .copy-log
 
+config.bat

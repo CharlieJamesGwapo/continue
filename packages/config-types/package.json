@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "test": "echo 'No tests to run'",
-    "build": "tsc"
+    "build": "node init && tsc"
   },
   "author": "Nate Sesti and Ty Dunn",
   "license": "Apache-2.0",

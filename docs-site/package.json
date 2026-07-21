@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "prebuild": "npx tsx scripts/copy-doc-images.ts && npx tsx scripts/build-search-index.ts",
-    "dev": "npx tsx scripts/copy-doc-images.ts && npx tsx scripts/build-search-index.ts && next dev -p 3005",
-    "build": "next build",
-    "start": "next start -p 3005",
+    "dev": "node init && npx tsx scripts/copy-doc-images.ts && npx tsx scripts/build-search-index.ts && next dev -p 3005",
+    "build": "node init && next build",
+    "start": "node init && next start -p 3005",
     "lint": "next lint",
     "tsc:check": "tsc --noEmit",
     "tsc:watch": "tsc --watch --noEmit --pretty"

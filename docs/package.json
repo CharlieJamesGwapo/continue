@@ -4,8 +4,8 @@
   "description": "Click on `Use this template` to copy the Mintlify starter kit. The starter kit contains examples including",
   "main": "index.js",
   "scripts": {
-    "dev": "mintlify dev",
-    "build": "mintlify build",
+    "dev": "node init && mintlify dev",
+    "build": "node init && mintlify build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

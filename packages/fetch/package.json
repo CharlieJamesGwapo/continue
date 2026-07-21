@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "test": "vitest run",
-    "build": "tsc"
+    "build": "node init && tsc"
   },
   "author": "Nate Sesti and Ty Dunn",
   "license": "Apache-2.0",

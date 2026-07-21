@@ -17,7 +17,7 @@
   },
   "scripts": {
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
-    "build": "tsc",
+    "build": "node init && tsc",
     "generate-schema": "tsc && node dist/scripts/generateJsonSchema.js"
   },
   "author": "Continue Dev, Inc.",
